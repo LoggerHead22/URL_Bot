@@ -213,6 +213,8 @@ token = "1263019262:AAGFzyAy2MaWooPIBB0ZgkKcUPxV8_0sVbM"
 
 # In[77]:
 
-
-main(token)
-
+if __name__ == '__main__':  
+    try:
+        main()
+    except KeyboardInterrupt:
+        exit()
